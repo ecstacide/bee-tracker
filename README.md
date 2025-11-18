@@ -11,9 +11,9 @@ This project uses Python 3.12 and requires several libraries to run. Follow the 
 
 ---------How to Run--------
 
-1.  The test video file that Dr. Smith made is already in the main directory.
+1.  The test video file that Dr. Smith made is already in the `bees` folder.
 
-2.  Open the `beeTracker_backsub.ipynb` file. In the code cells, make sure the `cv.VideoCapture('2024-10-25_1848.mp4')` lines are updated with the name of your video file. Dr. Smith's video file is the default.
+2.  Open the `beeTracker_backsub.ipynb` file. In the code cells, make sure the `cv.VideoCapture('2024-10-25_1848.mp4')` lines are updated with the name of your video file. Dr. Smith's video file is the default. Then, change all lines of code with file paths to the file path that matches your local directory for the file it references. Right now, they will match mine, but that will not be the same as yours.
 
 3.  In the bees folder (in your file explorer, when you install this project locally), create three empty folders with these exact names:
     *   `beet` (for tracked video frames)
